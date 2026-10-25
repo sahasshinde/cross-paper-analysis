@@ -1,0 +1,30 @@
+# Python virtual environments
+backend/venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies
+frontend/node_modules/
+node_modules/
+
+# Generated frontend build
+frontend/dist/
+dist/
+
+# Local uploaded PDFs
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# Local databases
+*.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+# Uploaded PDF documents
+data/uploads/*.pdf
+backend/data/uploads/*.pdf
